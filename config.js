@@ -53,7 +53,7 @@ const aIMG = [
   "https://www.hamqsl.com/solarpich.php",
   "https://services.swpc.noaa.gov/experimental/images/aurora_dashboard/tonights_static_viewline_forecast.png",
   "https://services.swpc.noaa.gov/experimental/images/aurora_dashboard/tomorrow_nights_static_viewline_forecast.png",
-  "https://www.gi.alaska.edu/modules/custom/aurora-forecast/images/idl_graphics/north_america/NorthAmerica_7.png",
+  //"https://www.gi.alaska.edu/modules/custom/aurora-forecast/images/idl_graphics/north_america/NorthAmerica_7.png",
   ],
 ];
 
