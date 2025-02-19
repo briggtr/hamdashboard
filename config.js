@@ -1,9 +1,15 @@
-const topBarCenterText = `WSAU750 - EN82mq`;
+const disableSetup = false;
+var topBarCenterText = `WSAU750 - EN82mq`;
+
+// Grid layout
+var layout_cols = 4;
+var layout_rows = 3;
+
 // Menu items
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
 // add new lines following the structure for extra menu options. The comma at the end is important!
-const aURL = [
+var aURL = [
   ["add10d", "BACK", "#", "1"],
   ["add10d", "BACK", "#", "1", "R"],
   ["ff9100", "Refresh", "#", "1"],
@@ -26,7 +32,7 @@ const aURL = [
 // the comma at the end is important!
 // You can't add more items because there are only 12 placeholders on the dashboard
 // but you can replace the titles and the images with anything you want.
-const aIMG = [
+var aIMG = [
   ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
   ["LOCAL RADAR", "https://radar.weather.gov/ridge/standard/KDTX_loop.gif", ],
   //["LIGHTNING LOCAL", //"https://www.blitzortung.org/en/Images/image_b_ny.png",
